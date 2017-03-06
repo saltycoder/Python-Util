@@ -143,7 +143,7 @@ def main():
         isError = True
 
     if args.saveLocation is not None and os.path.exists(args.saveLocation) == False:
-        print("{0}The --save-to path {1} does not exists.{2}".format(TextColors.RED, str(args.searchIn), TextColors.BLACK))
+        print("{0}The --save-to path {1} does not exists.{2}".format(TextColors.RED, str(args.saveLocation), TextColors.BLACK))
         isError = True
      
     if isError:
