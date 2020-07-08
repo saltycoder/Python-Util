@@ -9,3 +9,7 @@ This script will search for files with a specific file extension(s) entered by t
 ## HttpStatusCheck.py
 
 Check the HTTP Status of a list of web sites.
+
+## StringGenerator.py
+
+Create a random string of a certain length.  Option to include special characters and multiple strings.
